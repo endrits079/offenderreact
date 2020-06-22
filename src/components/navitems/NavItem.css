@@ -1,0 +1,28 @@
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  padding: 9px 15px;
+  transition: all 0.4s linear;
+}
+
+.nav-item a.active,
+.nav-item a:active,
+.nav-item a:hover {
+  background-color: rgb(248, 185, 68);
+}
+
+@media screen and (max-width: 530px) {
+  .nav-item {
+    display: block;
+    width: 100%;
+  }
+  .nav-item a {
+    background-color: var(--mainBG);
+    color: white;
+    display: block;
+  }
+}

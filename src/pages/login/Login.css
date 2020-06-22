@@ -1,0 +1,32 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  position: relative;
+}
+
+.login .form-area {
+  width: 400px;
+  height: 600px;
+  background-color: var(--mainBG);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 30px 5px var(--mainBG);
+  margin: 15px 0;
+}
+
+.login .form-area h4 {
+  color: white;
+  transform: translateY(-80px);
+  font-size: 20px;
+}
+.login form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

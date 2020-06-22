@@ -1,0 +1,46 @@
+.banner {
+  min-height: calc(100vh - 70px);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/banner/banner.jpg") center/cover fixed no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.banner-title {
+  font-size: 3.4rem;
+  letter-spacing: 2.5px;
+}
+
+.banner .divider {
+  width: 20%;
+  height: 4px;
+  background: linear-gradient(rgb(248, 190, 83), rgb(211, 138, 3));
+  border-radius: 100px;
+  margin: 15px 0;
+}
+
+.banner h2 {
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+}
+
+.banner a {
+  color: white;
+  text-decoration: none;
+  background-color: var(--mainBG);
+  padding: 12px 54px;
+  border-radius: 100px;
+  margin-top: 15px;
+  transition: all 0.3s linear;
+}
+
+.banner a:hover {
+  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.342);
+  transform: translateY(-2px) scale(1.15);
+  /* color: var(--mainBG);
+  background-color: rgb(255, 255, 255); */
+  font-weight: bold;
+}

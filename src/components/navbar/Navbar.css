@@ -1,0 +1,19 @@
+.nav ul {
+  list-style: none;
+}
+.nav-mobile {
+  width: 100%;
+  display: none;
+}
+.nav-mobile ul {
+  width: 100%;
+}
+
+@media screen and (max-width: 530px) {
+  .nav-mobile {
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
+}

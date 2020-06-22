@@ -1,0 +1,13 @@
+.footer {
+  background-color: var(--mainBG);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  color: white;
+  margin-bottom: 0;
+}
+
+.footer h3 {
+  font-size: 20px;
+}

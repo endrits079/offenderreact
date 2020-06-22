@@ -1,0 +1,16 @@
+.hamburger {
+  width: 60px;
+  display: none;
+}
+
+.hamburger div {
+  height: 4px;
+  background-color: white;
+  width: 90%;
+  margin: 5px auto;
+}
+@media screen and (max-width: 530px) {
+  .hamburger {
+    display: block;
+  }
+}
