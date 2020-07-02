@@ -34,14 +34,16 @@
 .single-input input[type="text"]:focus,
 .single-input input[type="password"]:focus,
 .single-input input[type="email"]:focus,
-.single-input input[type="number"]:focus {
+.single-input input[type="number"]:focus,
+.single-input textarea:focus {
   border: 2px solid rgb(255, 183, 48);
   padding-left: 15px;
 }
 .single-input input[type="text"]::placeholder,
 .single-input input[type="password"]::placeholder,
 .single-input input[type="email"]::placeholder,
-.single-input input[type="number"]::placeholder {
+.single-input input[type="number"]::placeholder,
+.single-input textarea::placeholder {
   color: rgb(117, 117, 117);
   padding-left: 15px;
   text-transform: uppercase;
@@ -58,5 +60,13 @@
   cursor: pointer;
   font-weight: bold;
   margin-top: 10px;
+  outline: none;
+}
+
+.single-input textarea{
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.452);
+  color: white;
   outline: none;
 }
